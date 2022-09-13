@@ -1,12 +1,12 @@
-height = 173
-weight = 65
-steps = 8000
-time = 20
+HEIGHT = 173
+WEIGHT = 65
+STEPS = 8000
+TIME = 20
 
-length = height / 4 + 0.37
-distance = length * steps
-speed = length / time
-expense = 0.035 * weight + ((speed ** 2) / height) * 0.029 * weight
+length = HEIGHT / 4 + 0.37
+distance = length * STEPS
+speed = length / TIME
+expense = 0.035 * WEIGHT + ((speed ** 2) / HEIGHT) * 0.029 * WEIGHT
 
 print(f'Distance: {length} m, Expense: {expense} kcal/min')
 print(f'Distance: {length / 1000} km, Expense: {expense} kcal/min')
